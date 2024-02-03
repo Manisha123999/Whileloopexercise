@@ -1,10 +1,6 @@
 while True:
-    inches = float(input("Enter a length in inches (or a negative value to end): "))
-
+    inches = float(input("Enter the length in inches (enter a negative value to quit): "))
     if inches < 0:
-        print("Program ending. Goodbye!")
-        break  # Exit the loop if the input is negative
-
+        break
     centimeters = inches * 2.54
-
-    print(f"{inches} inches is equal to {centimeters:.2f} centimeters")
+    print(f"{inches} inches is equal to {centimeters} centimeters.")
